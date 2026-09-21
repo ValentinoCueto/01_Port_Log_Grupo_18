@@ -1,3 +1,8 @@
+[Ejercicio 04]
+- Implementacion de la clase PortAnalyzer con el DataFrame limpio encapsulado.
+- Metodos top_infractores, infracciones_por_turno e infracciones_por_muelle.
+- Metodos exceso_promedio, exceso_promedio_tolerancia e infractores_por_tipo_carga.
+
 [Ejercicio 03]
 - Normalizacion de fechas de ingreso/egreso a formato YYYY-MM-DD (invalidas -> 1900-01-01).
 - Normalizacion de horas de ingreso/egreso a formato de 24hs (invalidas -> 00:00).

@@ -1,8 +1,8 @@
 ,movimiento_id,buque_id,matricula,radar_id,muelle,tipo_carga,origen,fecha_ingreso,hora_ingreso,fecha_egreso,hora_egreso,tonelaje_declarado,velocidad_ingreso,velocidad_maxima_muelle,estado_despacho,fecha_ingreso_valida,fecha_egreso_valida,hora_ingreso_valida,hora_egreso_valida,duracion_horas,exceso_velocidad_real,exceso_velocidad
 count,447,447,447,426,447,447,447,447,447,447,447,447.0,447.0,447.0,433,447,447,447,447,408.0,447.0,447.0
-unique,447,40,31,8,12,8,8,391,361,393,340,,,,4,2,2,2,2,394.0,,
-top,MOV-01493,B-011,COSCO-TIGRE,R-07,MUELLEB,TRIGO,VALPARAISO,1900-01-01,00:00,1900-01-01,00:00,,,,EN_REVISION,True,True,True,True,68.05,,
-freq,1,19,30,69,75,69,68,13,26,9,62,,,,115,434,438,421,385,2.0,,
+unique,447,40,20,8,6,8,8,391,361,393,340,,,,4,2,2,2,2,394.0,,
+top,MOV-01493,B-011,ONEPARANA,R-07,MUELLED,TRIGO,VALPARAISO,1900-01-01,00:00,1900-01-01,00:00,,,,EN_REVISION,True,True,True,True,68.05,,
+freq,1,19,31,69,79,69,68,13,26,9,62,,,,115,434,438,421,385,2.0,,
 mean,,,,,,,,,,,,5035.174541387024,14.240492170022371,11.21923937360179,,,,,,,3.0212527964205815,2.4602908277404913
 std,,,,,,,,,,,,1283.7178116539399,2.10191941521971,1.505233427502644,,,,,,,1.7765967986095235,1.7922495460758134
 min,,,,,,,,,,,,1422.1,10.6,10.0,,,,,,,0.5999999999999996,0.05000000000000071

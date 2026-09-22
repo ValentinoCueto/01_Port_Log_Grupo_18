@@ -1,3 +1,8 @@
+[Ejercicio 06]
+- Calculo del porcentaje de infracciones con fecha y con hora invalida.
+- Identificacion del tipo de carga y del origen mas frecuentes entre infractores.
+- Calculo de la duracion promedio de estadia de los buques infractores.
+
 [Ejercicio 05]
 - Grafico de barras: Top 10 matriculas mas reincidentes.
 - Grafico de torta: Total de infracciones por turno del dia.

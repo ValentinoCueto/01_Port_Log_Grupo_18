@@ -1,3 +1,11 @@
+[Ejercicio 05]
+- Grafico de barras: Top 10 matriculas mas reincidentes.
+- Grafico de torta: Total de infracciones por turno del dia.
+- Grafico de barras horizontales: Total de infracciones por mes.
+- Histograma con KDE: Distribucion del exceso de velocidad real.
+- Grafico de barras: Exceso de velocidad promedio por muelle.
+- Grafico de barras: Comparacion de fecha valida vs invalida.
+
 [Ejercicio 04]
 - Implementacion de la clase PortAnalyzer con el DataFrame limpio encapsulado.
 - Metodos top_infractores, infracciones_por_turno e infracciones_por_muelle.

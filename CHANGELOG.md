@@ -1,3 +1,9 @@
+[Ejercicio 07]
+- Redaccion de la conclusion con la evaluacion de calidad del dataset heredado.
+- Descripcion de los patrones de infraccion y del impacto de migrar sin limpieza.
+- Propuesta de mejora para el proceso de captura de datos del puerto.
+- Revision de los ejercicios anteriores.
+
 [Ejercicio 06]
 - Calculo del porcentaje de infracciones con fecha y con hora invalida.
 - Identificacion del tipo de carga y del origen mas frecuentes entre infractores.

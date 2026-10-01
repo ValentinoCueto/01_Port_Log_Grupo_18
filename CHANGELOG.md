@@ -1,5 +1,12 @@
 # Sprint 2
 
+[Ejercicio 02]
+- Listado de las imagenes disponibles con nombre y tamaño en KB.
+- Separacion en plates y completes segun la relacion de aspecto.
+- Construccion de group_images y guardado en group_images.json.
+- Calculo de resolucion, area y tamaño promedio de cada grupo.
+- Funcion mostrar_muestra para ver imagenes aleatorias en grilla.
+
 [Ejercicio 01]
 - Creacion de la rama Sprint_2 a partir de Sprint_1.
 - Descarga y descompresion de las imagenes en data/raw/imgs.

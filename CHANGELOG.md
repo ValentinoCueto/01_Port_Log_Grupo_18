@@ -1,3 +1,13 @@
+# Sprint 2
+
+[Ejercicio 01]
+- Creacion de la rama Sprint_2 a partir de Sprint_1.
+- Descarga y descompresion de las imagenes en data/raw/imgs.
+- Verificacion de los archivos del Sprint 1 y conteo de sus registros.
+- Actualizacion del README.md con el objetivo del Sprint 2.
+
+# Sprint 1
+
 [Ejercicio 07]
 - Redaccion de la conclusion con la evaluacion de calidad del dataset heredado.
 - Descripcion de los patrones de infraccion y del impacto de migrar sin limpieza.
@@ -41,4 +51,3 @@
 - Inicializacion del repositorio sobre la rama Sprint_1.
 - Creacion de la estructura de directorios de port_log.
 - Alta del README.md con el objetivo y el contexto del sprint.
-

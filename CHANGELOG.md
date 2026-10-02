@@ -1,5 +1,12 @@
 # Sprint 2
 
+[Ejercicio 03]
+- Conversion de todas las imagenes originales a escala de grises.
+- Ecualizacion de histograma sobre las imagenes en escala de grises.
+- Blur gaussiano (kernel 9 x 9) sobre las imagenes ecualizadas.
+- Bordes con Canny (umbrales 100 y 200) sobre las imagenes suavizadas.
+- Guardado de cada etapa en data/interim/imgs separado por grupo.
+
 [Ejercicio 02]
 - Listado de las imagenes disponibles con nombre y tamaño en KB.
 - Separacion en plates y completes segun la relacion de aspecto.

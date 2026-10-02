@@ -1,5 +1,12 @@
 # Sprint 2
 
+[Ejercicio 04]
+- Extraccion de la matricula de cada imagen con easyocr.
+- Reintento sobre las imagenes preprocesadas cuando no hay match.
+- Actualizacion de matricula_imagen en group_images.json.
+- Matching posicional de caracteres alfanumericos con umbral del 75%.
+- Cruce con el dataset y guardado en port_movements_image.csv.
+
 [Ejercicio 03]
 - Conversion de todas las imagenes originales a escala de grises.
 - Ecualizacion de histograma sobre las imagenes en escala de grises.

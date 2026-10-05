@@ -1,5 +1,10 @@
 # Sprint 2
 
+[Ejercicio 06]
+- Medicion de brillo y nitidez para clasificar las capturas.
+- Comparacion de la tasa de match por condicion de captura.
+- Redaccion de la conclusion en reports/conclusion_sprint2.md.
+
 [Ejercicio 05]
 - Conteo de infracciones con y sin imagen asociada.
 - Conteo de imagenes sin match en el dataset.

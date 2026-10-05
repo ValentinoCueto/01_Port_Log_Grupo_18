@@ -1,5 +1,12 @@
 # Sprint 2
 
+[Ejercicio 05]
+- Conteo de infracciones con y sin imagen asociada.
+- Conteo de imagenes sin match en el dataset.
+- Calculo del ratio promedio de los matches encontrados.
+- Comparacion de la tasa de match entre los grupos plates y completes.
+- Conteo de infracciones PENDIENTES sin evidencia visual.
+
 [Ejercicio 04]
 - Extraccion de la matricula de cada imagen con easyocr.
 - Reintento sobre las imagenes preprocesadas cuando no hay match.

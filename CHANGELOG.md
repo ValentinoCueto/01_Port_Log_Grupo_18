@@ -1,3 +1,11 @@
+# Sprint 3
+
+[Ejercicio 01]
+- Creacion de la rama Sprint_3 a partir de Sprint_2.
+- Verificacion de los datasets de los sprints anteriores.
+- Registro de cantidad de registros y fecha de ultima modificacion.
+- Actualizacion del README.md con el objetivo del Sprint 3.
+
 # Sprint 2
 
 [Ejercicio 06]

@@ -1,28 +1,29 @@
-# Port Log - Sprint 2
+# Port Log - Sprint 3
 
 ## Objetivo
 
-Aplicar conocimientos de tratamiento de imagenes y programacion limpia sobre el
-contexto del sistema portuario.
+Aplicar conocimientos de bases de datos relacionales (SQLAlchemy), versionado
+de datos (DVC) y busqueda por similitud visual (ChromaDB) para profesionalizar
+el sistema portuario.
 
 ## Introduccion y contexto
 
-Los radares ubicados en los accesos a los muelles capturan evidencia
-fotografica de las infracciones de velocidad. Las camaras asociadas toman
-fotografias de la zona de proa donde esta pintada la matricula del buque. En
-algunos casos el sistema recorta automaticamente la zona de matricula
-(`plates`); en otros, entrega la imagen completa (`completes`).
+El sistema ha crecido en volumen y complejidad. El equipo de desarrollo
+portuario necesita:
 
-El sistema presenta las siguientes limitaciones:
+1. **Persistencia estructurada**: pasar de CSVs a una base de datos
+   relacional con ORM.
+2. **Auditoria de cambios**: poder rastrear que version del dataset se uso en
+   cada analisis.
+3. **Identificacion visual de buques**: dado que el OCR no siempre funciona
+   bien, el sistema debe poder identificar un buque por similitud visual de
+   su imagen, sin depender del texto.
 
-- No todas las infracciones tienen imagen asociada.
-- No todas las imagenes corresponden a una infraccion real (falsos positivos
-  del radar).
-- Puede haber errores de deteccion optica: imagenes borrosas, nocturnas o
-  tomadas a gran distancia.
+## Versionado de datos
 
-El objetivo del sprint es responder: **que infracciones tienen evidencia visual
-valida?**
+Los archivos binarios y el dataset procesado final se versionan con DVC,
+usando un bucket de Supabase como almacenamiento S3. Para descargarlos:
+`dvc pull -r publico`.
 
 ## Estructura del proyecto
 
@@ -30,10 +31,10 @@ valida?**
 port_log
 ├── data
 │   ├── interim
-│   │   ├── imgs    (imagenes preprocesadas: gris, ecualizada, blur y canny)
-│   │   └── plots   (graficos exportados en el Sprint 1)
-│   ├── processed   (dataset de infracciones con evidencia visual)
+│   │   ├── imgs    (imagenes preprocesadas del Sprint 2)
+│   │   └── plots   (graficos del Sprint 1, versionados con DVC)
+│   ├── processed   (dataset final, base relacional y base vectorial, con DVC)
 │   └── raw
-│       └── imgs    (imagenes originales de los radares)
-└── reports         (resumenes y conclusiones de cada sprint)
+│       └── imgs    (imagenes originales en plates y completes, con DVC)
+└── reports         (resumenes y conclusiones)
 ```

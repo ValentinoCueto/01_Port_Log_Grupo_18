@@ -1,5 +1,9 @@
 # Sprint 3
 
+[Ejercicio 03]
+- Diseño del modelo logico: Buque, Movimiento, Radar y Evidencia.
+- Definicion de atributos, claves y cardinalidades de cada relacion.
+
 [Ejercicio 02]
 - Configuracion de DVC con un bucket de Supabase como remoto S3.
 - Separacion de las imagenes originales en plates y completes.

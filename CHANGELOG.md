@@ -4,6 +4,7 @@
 - Configuracion de DVC con un bucket de Supabase como remoto S3.
 - Separacion de las imagenes originales en plates y completes.
 - Migracion de las imagenes de port_log/data/raw/imgs de git a DVC.
+- Migracion de los graficos de interim/plots de git a DVC.
 
 [Ejercicio 01]
 - Creacion de la rama Sprint_3 a partir de Sprint_2.

@@ -1,0 +1,8 @@
+[core]
+    remote = supabase
+['remote "supabase"']
+    url = s3://dvc_grupo_18
+    endpointurl = https://jpfwkyiemjbfzoxpkmww.storage.supabase.co/storage/v1/s3
+    region = us-east-2
+['remote "publico"']
+    url = https://jpfwkyiemjbfzoxpkmww.supabase.co/storage/v1/object/public/dvc_grupo_18

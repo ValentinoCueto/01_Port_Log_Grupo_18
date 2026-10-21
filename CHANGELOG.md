@@ -5,6 +5,7 @@
 - Separacion de las imagenes originales en plates y completes.
 - Migracion de las imagenes de port_log/data/raw/imgs de git a DVC.
 - Migracion de los graficos de interim/plots de git a DVC.
+- Versionado con DVC de port_movements_image.csv.
 
 [Ejercicio 01]
 - Creacion de la rama Sprint_3 a partir de Sprint_2.

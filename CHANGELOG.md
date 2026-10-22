@@ -1,5 +1,11 @@
 # Sprint 3
 
+[Ejercicio 05]
+- Creacion de la base SQLite transito_portuario y sus tablas.
+- Migracion de los datos del CSV procesado con procesar_fila_csv.
+- Validacion de los registros insertados en cada tabla.
+- Versionado de la base de datos con DVC.
+
 [Ejercicio 04]
 - Implementacion de los modelos Buque, Radar, Movimiento y Evidencia.
 - Claves primarias y foraneas, relationship y __repr__ por modelo.

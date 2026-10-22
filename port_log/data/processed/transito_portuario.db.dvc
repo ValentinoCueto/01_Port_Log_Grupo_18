@@ -1,0 +1,5 @@
+outs:
+- md5: 49de0892191982599c6d9573934dcc14
+  size: 135168
+  hash: md5
+  path: transito_portuario.db

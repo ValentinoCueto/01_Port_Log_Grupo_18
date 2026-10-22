@@ -1,5 +1,11 @@
 # Sprint 3
 
+[Ejercicio 04]
+- Implementacion de los modelos Buque, Radar, Movimiento y Evidencia.
+- Claves primarias y foraneas, relationship y __repr__ por modelo.
+- Funcion procesar_fila_csv para mapear filas del CSV a modelos.
+- Ajuste por radar movil: muelle en Movimiento y radar identificado por su codigo.
+
 [Ejercicio 03]
 - Diseño del modelo logico: Buque, Movimiento, Radar y Evidencia.
 - Definicion de atributos, claves y cardinalidades de cada relacion.

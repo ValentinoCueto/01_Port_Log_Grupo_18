@@ -1,5 +1,11 @@
 # Sprint 3
 
+[Ejercicio 07]
+- Seleccion de la imagen complete de mayor ratio de cada buque.
+- Creacion de la base vectorial con ChromaDB y OpenCLIP.
+- Calculo de la cobertura vectorial sobre la base relacional.
+- Versionado de la base vectorial con DVC.
+
 [Ejercicio 06]
 - Consulta del top 10 de buques con mas infracciones.
 - Consulta de los movimientos mas recientes sin evidencia.

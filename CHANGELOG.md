@@ -1,5 +1,13 @@
 # Sprint 3
 
+[Ejercicio 06]
+- Consulta del top 10 de buques con mas infracciones.
+- Consulta de los movimientos mas recientes sin evidencia.
+- Consulta de los radares mas activos con la cantidad de muelles distintos.
+- Consulta de los reincidentes del año 2024.
+- Consulta del exceso de velocidad promedio por muelle.
+- Calculo del porcentaje de infracciones confirmadas visualmente.
+
 [Ejercicio 05]
 - Creacion de la base SQLite transito_portuario y sus tablas.
 - Migracion de los datos del CSV procesado con procesar_fila_csv.

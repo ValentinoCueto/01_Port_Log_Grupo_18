@@ -1,5 +1,8 @@
 # Sprint 3
 
+[Ejercicio 09]
+- Redaccion de la conclusion en reports/conclusion_sprint3.md.
+
 [Ejercicio 08]
 - Funcion buscar_buque_por_imagen con OpenCLIP, ChromaDB y SQLAlchemy.
 - Advertencia cuando la consulta es un recorte plate.

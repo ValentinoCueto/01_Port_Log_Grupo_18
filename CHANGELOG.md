@@ -1,5 +1,10 @@
 # Sprint 3
 
+[Ejercicio 08]
+- Funcion buscar_buque_por_imagen con OpenCLIP, ChromaDB y SQLAlchemy.
+- Advertencia cuando la consulta es un recorte plate.
+- Validacion con una imagen complete y una imagen plate.
+
 [Ejercicio 07]
 - Seleccion de la imagen complete de mayor ratio de cada buque.
 - Creacion de la base vectorial con ChromaDB y OpenCLIP.
